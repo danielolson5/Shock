@@ -1,5 +1,11 @@
+services:
+  - mongodb
+
 language: go
 
 go:
   - tip
 
+before_script:
+  - sleep 15
+  - mongo mongo_test --eval 'db.addUser("travis", "test");'
