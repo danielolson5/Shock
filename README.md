@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/danielolson5/Shock.svg)](https://travis-ci.org/danielolson5/Shock)
+
 About
 -----
 
